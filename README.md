@@ -6,7 +6,7 @@
 
 ## Tampil Jadwal
 
-![IMG_8566.jpg](https://github.com/adzinpratama/rs-melinda/blob/main/screenshot/ListJadwal.png?raw=true)
+![IMG_8566.jpg](https://github.com/adzinpratama/rs-melinda/blob/main/screenshot/listJadwal.png?raw=true)
 
 ## Form Manajemen Dokter
 
