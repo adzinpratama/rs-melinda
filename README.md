@@ -34,14 +34,26 @@ Masuk Ke direktori warehouse
 cd rs-melinda
 ```
 
+-   copy .env.example ke .env
+-   Sesuaikan database pada lingkungan
+    development
+
+```
+cp .env.example .env
+```
+
+```
+composer install
+```
+
 ```
 php artisan key:generate
 ```
 
-install package
+install package node
 
 ```
-composer install && npm install
+npm install
 ```
 
 start mix
@@ -50,15 +62,7 @@ start mix
 npm run dev
 ```
 
-copy .env.example ke .env
-
-```
-cp .env.example .env
-```
-
--   Sesuaikan database pada lingkungan
-    development
--   Migrasi Database
+Migrasi Database
 
 ```
 php artisan migrate --seed
